@@ -1,0 +1,38 @@
+{
+  
+  "dependencies": {
+  
+    
+  "@openzeppelin/contracts": "^4.3.2"
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "chai": "^4.3.4",
+  
+    
+  "chai-as-promised": "^7.1.1",
+  
+    
+  "prettier": "^2.4.1",
+  
+    
+  "prettier-plugin-solidity": "*",
+  
+    
+  "solhint": "^3.3.6",
+  
+    
+  "solhint-plugin-prettier": "^0.0.5"
+  
+  },
+  
+  "scripts": {
+  
+    
+  "prettier:solidity": "./node_modules/.bin/prettier --write contracts/**/*.sol"
+  
+  }
+}
